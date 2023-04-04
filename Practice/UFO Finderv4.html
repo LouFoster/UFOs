@@ -54,6 +54,21 @@
 
                 </p>
                 </div>
+            
+                <form>
+                  <p>Filter Search</p>
+                </form>
+      
+                <ul class="list-group">
+                  <li class="list-group-item">
+                      <label for="date">Enter Date</label>
+                      <input type="text" placeholder="1/10/2010" id="datetime" />
+                  </li>
+                  <li class="list-group-item">
+                      <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                  </li>
+                </ul>
+
                 <div class="container-fluid">
                     <div class="row">
                       <div class="col-md-3">
@@ -78,21 +93,9 @@
                     </div>
                   </div>
             </div>
-        </div>
+        
 
-        <form>
-            <p>Filter Search</p>
-          </form>
-
-          <ul class="list-group">
-            <li class="list-group-item">
-                <label for="date">Enter Date</label>
-                <input type="text" placeholder="1/10/2010" id="datetime" />
-            </li>
-            <li class="list-group-item">
-                <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-            </li>
-          </ul>
+ 
 
           <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.12.0/d3.js"></script>
           <script src="static/js/data.js"></script>
