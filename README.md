@@ -10,7 +10,7 @@ Using JavaScript, you’ll replace the handleClick() function in your app.js fil
 Follow the instructions below and the numbered comments in the starter code to complete Deliverable 1.
 1.	Download the ufo_starterCode.js, rename it app.js, and place it in the js folder of your UFOs GitHub repository. The starter code includes the code used to populate the table from this module.
 
-2.	In the index.html file, remove the list (<li></li>) element that creates the button.
+2.	In the index.html file, remove the list element that creates the button.
 
 3.	Create four more list elements: city, state, country, and shape. These will be similar to the "Enter Date" list element.
 
